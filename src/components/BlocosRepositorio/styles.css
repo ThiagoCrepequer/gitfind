@@ -1,0 +1,48 @@
+.container-repositorio {
+    width: 355px;
+    height: 150px;
+    margin: 3px;
+    padding: 5px;
+
+    border: 1px solid rgba(189, 189, 189, 0.2);
+    border-radius: 12px;
+    
+    display: inline-block;
+    color: white;
+}
+
+.container-repositorio:hover {
+    background-color: #1e242c;
+}
+
+.nome-repositorio {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container-texto {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.descricao-repositorio {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+
+@media (max-width: 767px) {
+    .container-repositorio {
+        width: 98%;
+    }
+}
+
+.link {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
